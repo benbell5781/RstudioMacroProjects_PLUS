@@ -125,7 +125,7 @@ R with the packages `eurostat`, `dplyr`, `zoo`, `readxl`, `MASS`, `ggplot2`, `re
 
 **Adapted from other work:** the stochastic volatility extension uses an adapted version of the TVP-SVD estimator from the replication archive of Hauzenberger, Huber, Koop and Onorante (2021), available at https://github.com/fhuber7/replication-archive/tree/main/TVPSVD_replication. The files I used (`main_replication.R` and `tvpsvd_estim.R`) state in their header that they are a repackaged, modified extract of the authors' original replication package. I did not write that estimator. I applied it to the Austrian data. Please check the archive for its licence and use the authors' original code if you need an official version.
 
-**AI assistance:** [State here exactly where AI helped, for example "Claude (Anthropic) assisted with ... " and which files. Delete this line if no AI tools were used.]
+**AI assistance:** [This project partially integrated Claude AI into the writing of Code]
 
 ## References
 
