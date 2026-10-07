@@ -110,7 +110,7 @@ austrian-phillips-curve-tvp/
 
 ### Requirements
 
-R with the packages `eurostat`, `dplyr`, `zoo`, `readxl`, `MASS`, `ggplot2`, `reshape2`, `coda`, `GIGrvg`, `Matrix`, `mvtnorm`, `shrinkTVP`, `stochvol` and `bayesm`.
+R with the packages `eurostat`, `dplyr`, `zoo`, `readxl`, `MASS`, `ggplot2`, `reshape2`, `coda`, `GIGrvg`, `Matrix`, `mvtnorm`, `shrinkTVP`, `stochvol`, `bayesm` and 'scales'.
 
 ### Running
 
@@ -121,11 +121,11 @@ R with the packages `eurostat`, `dplyr`, `zoo`, `readxl`, `MASS`, `ggplot2`, `re
 
 ## Credits and authorship
 
-**Written by me:** the data pipeline, the baseline TVP model, the Carter-Kohn Gibbs sampler, the three specifications, the posterior comparisons and all plots in `Application_TVPPC.R`.
+**Written by Ben Bell:** the data pipeline, the baseline TVP model, the Carter-Kohn Gibbs sampler, the three specifications, the posterior comparisons and all plots in `Application_TVPPC.R`.
 
 **Adapted from other work:** the stochastic volatility extension uses an adapted version of the TVP-SVD estimator from the replication archive of Hauzenberger, Huber, Koop and Onorante (2021), available at https://github.com/fhuber7/replication-archive/tree/main/TVPSVD_replication. The files I used (`main_replication.R` and `tvpsvd_estim.R`) state in their header that they are a repackaged, modified extract of the authors' original replication package. I did not write that estimator. I applied it to the Austrian data. Please check the archive for its licence and use the authors' original code if you need an official version.
 
-**AI assistance:** [State here exactly where AI helped, for example "Claude (Anthropic) assisted with ... " and which files. Delete this line if no AI tools were used.]
+**AI assistance:** [Claude (Anthropic) assisted with in (TVPPC.R) the configuration of the Carter Kohn Algorithm (Carter-Kohn Forward-Backward Sampler), structuring specifications, formation of Kernel Density Plots, and in (TVP_SV_extension.R) with log volatility in Carter Kohn Algorithm, Kernel Density Plots, and Posterior Probability Comparison Table]
 
 ## References
 
