@@ -102,7 +102,7 @@ With stochastic volatility, the coefficient paths are nearly flat, the 1999 Q1 a
 austrian-phillips-curve-tvp/
   README.md
   Application_TVPPC.R        # data download, baseline TVP Gibbs sampler, three specifications, posterior comparisons
-  [SV script name].R         # stochastic volatility extension applied to the Austrian data
+  TVP_SV_extension.R         # stochastic volatility extension applied to the Austrian data
   external/                  # TVP-SVD files from the replication archive (see Credits)
   data/                      # AT_output_gap.xlsx (not included)
   figures/                   # coefficient paths and kernel density plots
