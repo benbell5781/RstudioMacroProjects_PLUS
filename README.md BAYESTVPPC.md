@@ -102,9 +102,8 @@ With stochastic volatility, the coefficient paths are nearly flat, the 1999 Q1 a
 austrian-phillips-curve-tvp/
   README.md
   Application_TVPPC.R        # data download, baseline TVP Gibbs sampler, three specifications, posterior comparisons
-  [SV script name].R         # stochastic volatility extension applied to the Austrian data
+  TVP_SV_extension.R         # stochastic volatility extension applied to the Austrian data
   external/                  # TVP-SVD files from the replication archive (see Credits)
-  data/                      # AT_output_gap.xlsx (not included)
   figures/                   # coefficient paths and kernel density plots
 ```
 
@@ -121,7 +120,7 @@ R with the packages `eurostat`, `dplyr`, `zoo`, `readxl`, `MASS`, `ggplot2`, `re
 
 ## Credits and authorship
 
-**Written by me:** the data pipeline, the baseline TVP model, the Carter-Kohn Gibbs sampler, the three specifications, the posterior comparisons and all plots in `Application_TVPPC.R`.
+**Written by Ben Bell with assistance of Claude AI:** the data pipeline, the baseline TVP model, the Carter-Kohn Gibbs sampler, the three specifications, the posterior comparisons and all plots in `Application_TVPPC.R` and 'TVP_SV_extension.R '.
 
 **Adapted from other work:** the stochastic volatility extension uses an adapted version of the TVP-SVD estimator from the replication archive of Hauzenberger, Huber, Koop and Onorante (2021), available at https://github.com/fhuber7/replication-archive/tree/main/TVPSVD_replication. The files I used (`main_replication.R` and `tvpsvd_estim.R`) state in their header that they are a repackaged, modified extract of the authors' original replication package. I did not write that estimator. I applied it to the Austrian data. Please check the archive for its licence and use the authors' original code if you need an official version.
 
